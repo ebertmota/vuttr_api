@@ -1,8 +1,8 @@
-import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
+import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity("tools")
+@Entity('tools')
 class Tool {
-  @PrimaryGeneratedColumn("uuid")
+  @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @Column()
@@ -14,8 +14,8 @@ class Tool {
   @Column()
   description: string;
 
-  @Column()
-  tags: string;
+  @Column('simple-array')
+  tags: string[];
 }
 
 export default Tool;
