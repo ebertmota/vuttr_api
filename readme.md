@@ -30,7 +30,7 @@ Vuttr is a simple API allowing consumers to store your most used tools to make s
 Agora é só você entrar na pasta do projeto e baixar as dependências.
  
 ```sh
-  cd flukeChallenge
+  cd vuttr_api
 ```
 
 
@@ -59,6 +59,23 @@ DB_PORT=5432
 DB_USERNAME="username"
 DB_PASSWORD="password"
 
+```
 
+<h3>Criando a database e rodando as migrations.</h3>
+Agora vamos criar um nova database no postgres, para facilitar esse processo você pode usar clientes como <a href="https://www.electronjs.org/apps/postbird">PostBird</a> e  <a href="https://dbeaver.io/">dbeaver</a> e criar um banco chamado 'ebertmota_vuttr'.
 
- ```
+Para finalizar vamos rodas as migrations com o comando:
+```bash
+  yarn typeorm migration:run
+```
+
+Agora você pode rodar o projeto:
+```bash
+yarn dev:server
+```
+
+ou
+
+```bash
+npm run dev:server
+```
