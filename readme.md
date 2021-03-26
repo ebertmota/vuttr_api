@@ -8,6 +8,7 @@ README em desenvolvimento...
 <br />
 <br />
 
+
 <h2>Sobre</h2>
 <p>
   A aplicação é um repositório para você armanezar suas ferramentas preferidas e não se preocupar em esquecer delas, você pode adicionar links, descrição e até separa-las por tag.   
@@ -15,6 +16,10 @@ README em desenvolvimento...
 <p>
    Durante o desenvolvimento da API foram utilizadas ferramentas como Eslint e prettier para a padronização do código, dotenv para configuração das variaveis de ambiente e conceitos do SOLID, arquitetura usando a metodologia DDD (Domain Driven Design) que contribue para uma melhor escalabilidade da aplicação.
 </p>
+
+
+<br />
+<br />
 
 
 ## :bulb: Principais tecnologias utilizadas
@@ -50,7 +55,7 @@ README em desenvolvimento...
 
 <h3>Documentação</h3>
   
-Você conferir a documentação feita com api-blueprint, [aqui](api.md)
+Você conferir a documentação feita com api-blueprint, [aqui](api.md).
 
 <br />
 <br />
@@ -97,6 +102,9 @@ E preencha o arquivo com as suas informações de conexão do banco de dados. Ex
   DB_PASSWORD="password"
   ```
 
+<br />
+<br />
+
 <h3>Criando a database e rodando as migrations.</h3>
 Precisamos criar um nova database no postgres, para facilitar esse processo você pode usar clientes como <a href="https://www.electronjs.org/apps/postbird">PostBird</a> e  <a href="https://dbeaver.io/">dbeaver</a> e criar um banco chamado "ebertmota_vuttr". 
 
@@ -117,6 +125,6 @@ Agora você pode rodar o projeto:
   yarn dev:server
   ```
 E a aplicação estará funcionando em: http://localhost:3000
-
+<br />
 
 <quote> Se você usa o insomnia, faça o <a href="https://github.com/ebertmota/vuttr_api/blob/main/.github/assets/Insomnia_vuttr_api.json">donwload do workspace</a> para testar as rotas do projeto.</quote>
