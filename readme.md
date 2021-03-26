@@ -21,8 +21,8 @@ Vuttr is a simple API allowing consumers to store your most used tools to make s
 <br />
 
 
-<h3>Configurações essenciais para rodar o projeto</h3>
- clone o repositório
+<h2>Configurações essenciais para rodar o projeto</h2>
+<h3>clone o repositório</h3>
 
 ```sh
   git clone https://github.com/ebertmota/vuttr_api.git
@@ -47,7 +47,7 @@ Agora é só você entrar na pasta do projeto e baixar as dependências.
 <br />
 <br />
   
-  <h3>Configurando conexão com Banco de dados</h3>
+<h3>Configurando conexão com Banco de dados</h3>
 <br />
   Primeiramente você vai precisar de um Banco PostgreSQL rodando em sua máquina para o funcionamento da API, o recomendado é utilizar o docker caso não saiba usar o docker confira as instruções na <a href="https://docs.docker.com/engine/examples/postgresql_service/">documentação oficial</a>.
  
@@ -58,5 +58,7 @@ DB_HOST="localhost"
 DB_PORT=5432
 DB_USERNAME="username"
 DB_PASSWORD="password"
+
+
 
  ```
