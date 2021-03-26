@@ -44,9 +44,16 @@ README em desenvolvimento...
 * ```PUT /tools```  - Atualiza as informações de uma ferramenta, para isso você precisa enviar o ```id``` da ferramenta e os dados que deseja atualizar no corpo da requisição.
 
 * ```DELETE /tools/:id```  - Deleta uma ferramenta, com seu ```id``` fornecido no parâmetro de rota.
+
+<br>
+<br>
+
+<h3>Documentação</h3>
   
+Você conferir a documentação feita com api-blueprint, [aqui](api.md)
 
-
+<br />
+<br />
 
 
 <h2>Configurações essenciais para rodar o projeto</h2>
