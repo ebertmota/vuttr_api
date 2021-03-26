@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import toolsRouter from './tools.routes';
+import toolsRouter from '@modules/tools/infra/http/routes/tools.routes';
 
 const routes = Router();
 
