@@ -96,7 +96,7 @@ Create a new tool, providing 'title', 'link', 'description' and 'tags' values.
 <br />
 
 
-## Update a Tool [UPDATE]
+## Update a Tool [PUT]
 
 Update a tool, providing your id and all params that you wanted update.
 
