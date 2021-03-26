@@ -82,3 +82,6 @@ Agora você pode rodar o projeto:
   yarn dev:server
   ```
 E a aplicação estará funcionando em: http://localhost:3000
+
+
+<quote> Se você usa o insomnia, faça o <a href="https://github.com/ebertmota/vuttr_api/blob/main/.github/assets/Insomnia_vuttr_api.json">donwload do workspace</a> para testar as rotas do projeto.</quote>
