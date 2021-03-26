@@ -65,11 +65,17 @@ E preencha o arquivo com as informações de conexão do banco de dados. Exemplo
 <h3>Criando a database e rodando as migrations.</h3>
 Precisamos criar um nova database no postgres, para facilitar esse processo você pode usar clientes como <a href="https://www.electronjs.org/apps/postbird">PostBird</a> e  <a href="https://dbeaver.io/">dbeaver</a> e criar um banco chamado "ebertmota_vuttr". 
 
-<br/>
+<br />
+<br />
+
 Para finalizar vamos rodar as migrations com o comando:
-  ```bash
-    yarn typeorm migration:run
-  ```
+   ```
+      yarn typeorm migration:run
+   ```
+
+<br />
+<br />
+
 
 Agora você pode rodar o projeto:
   ```bash
