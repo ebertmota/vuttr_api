@@ -1,6 +1,3 @@
-README em desenvolvimento...
-
-
 <h1 align="center">VUTTR</h1>
 
 <p align="center">Very Usefull Tools to Remember</p>
