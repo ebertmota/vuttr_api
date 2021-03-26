@@ -53,7 +53,7 @@ Agora é só você entrar na pasta do projeto e baixar as dependências.
  <br />
  
  Agora crie um arquivo na raiz do seu seu projeto ```.env```, então copie o conteúdo do arquivo ```.env.example``` e cole no .env que você acabou de criar.
-E preencha o arquivo com as informações de conexão do banco de dados. Exemplo:
+E preencha o arquivo com as suas informações de conexão do banco de dados. Exemplo:
 
   ```bash
   DB_HOST="localhost"
