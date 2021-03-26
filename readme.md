@@ -22,7 +22,7 @@ Vuttr is a simple API allowing consumers to store your most used tools to make s
 
 
 <h2>Configurações essenciais para rodar o projeto</h2>
-<h3>clone o repositório</h3>
+<h3>Clone o repositório</h3>
 
 ```sh
   git clone https://github.com/ebertmota/vuttr_api.git
